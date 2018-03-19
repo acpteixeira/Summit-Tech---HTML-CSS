@@ -2,9 +2,103 @@
 <html>
 	<head>
 		<title>Introdução HTML</title>
+		<meta charset="UTF-8"> <!-- especifica a codificação de caracteres -->
+		<meta name="author" content="Ana Cristina Pereira Teixeira"> <!-- especifica autor do documento -->
+		<meta name="description" content="Free Web tutorials"> <!-- especifica descrição da página -->
+		<!--<meta name="generator" content="FrontPage 4.0">--> <!-- especifica pacotes de software usados para gerar o documento quando o mesmo não foi feito a mão -->
+		<meta name="keywords" content="HTML,CSS,XML,Javascript,tutorials"> <!-- especifica palavras-chave relevantes para a página -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- controla a área visível de uma página da web -->
 	</head>
 	<body>
 		<h1>Introdução HTML</h1>
-		<p>Este mini curso foi ministrado por Bruno Barbosa.</p>
+		<p>Este minicurso foi ministrado por Bruno Barbosa no <i>Raja Valley Summit Tech 2017</i>.</p>
+		<h2>Primeira Página HTML</h2>
+		<p>Êba!!</p>
+		
+		<h3>Títulos e Subtítulos</h3>
+		<p>Em ordem crescente h1, h2, h3, h4 e h5:</p>
+		<h1>h1</h1>
+		<h2>h2</h2>
+		<h3>h3</h3>
+		<h4>h4</h4>
+		<h5>h5</h5>
+		<p>Este é um parágrafo que apresenta estilos: <b>negrito (b)</b> e <strong>negrito (strong)</strong>, <i>itálico (i)</i> e <em>itálico (em)</em> e por último, mas não menos importante <u>sublinhado (u)</u>
+		<br>
+		<br>Esta é uma quebra de linha usando a <i>tag br</i>.
+		<br>
+		<br>Os atributos HTML são informações extras pré-determinadas das <i>tags</i>, estas podem possuir atributos exclusivos.
+		<br>Atributos possibilitam acessibilidade, definição de estilo, referência e incorporação de conteúdos.
+		<br>
+		<br>O exemplo abaixo ilustra a utilização da <i>tag parágrafo</i> com atributos exclusivos (<i>title</i> e <i>id</i>).
+		</p>
+		<p title='título para o elemento'>Texto do parágrafo</p>
+		<p id='xulambs'>Texto do xulambs</p>
+		
+		<h3>Imagens</h3>
+		<p>Imagens podem ser adicionadas por: arquivo local na mesma pasta, em pasta diferente ou em outro servidor (nuvem).
+		<br>Extensões dos arquivos de imagem: .jpeg, .jpg e .bmp para fotos; .gif para animações; .png para figuras/fundo transparente e .svg para formas e ícones.
+		<br>Quando não indicado, o tamanho da imagem é obtido automaticamente e é obtido o tamanho original da mesma. Os atributos de tamanho são <i>width</i> para largura e <i>height</i> para altura, estes são medidos em pixels e porcentagem.
+		O tamanho da imagem também pode ser ajustado pelo arquivo de estilos CSS.
+		</p>
+		<!-- <img src="HTML_Logo.png" alt="Ícone HTML5"> -->
+		<img src="imagens/HTML_Logo.png" alt="Ícone HTML5" width="128" height="128">
+		<!-- <img src="https://vignette.wikia.nocookie.net/runescape2/images/0/05/HTML5_logo.png/revision/latest?cb=20130717151440&path-prefix=pt" alt="Ícone HTML5 outro servidor"> -->
+		
+		<h3>Âncoras e Links</h3>
+		<p>Âncora na mesma página:</p>
+		<a href="#xulambs">Texto Linkado (Texto do xulambs)</a> <!-- para funcionar o id precisa ter # -->
+		<p>Link no mesmo site:</p>
+		<a href="outro-arquivo.html">outra página interna</a>
+		<p>Link para outro site:</p>
+		<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+		<h3>Listas</h3>
+		<p>São elementos compostos: tópicos (ul), enumeração (ol) e menus (li).
+		<br>Cada item da lista é um (li).</p>
+		<h4>Tópicos - ul</h4>
+		<ul>
+			<li>Computador</li>
+			<li>Cabos</li>
+			<li>Carregadores</li>
+		</ul>
+
+		<h4>Enumeração - ol</h4>
+		<ol>
+			<li>Computador</li>
+			<li>Cabos</li>
+			<li>Carregadores</li>
+		</ol>
+
+		<a href="desafio-menu.html">Desafio Menu Resolvido</a>
+		
+		<h3>Tabelas</h3>
+		<p>Servem para organizar dados.</p>
+		
+		<h2>Exemplo de Tabela HTML</h2>
+		<table>
+		  <tr>
+		    <th>Cabeçalho 1</th>
+		    <th>Cabeçalho 2</th>
+		    <th>Cabeçalho 3</th>
+		  </tr>
+		  <tr>
+		    <td>Linha 1 Coluna 1</td>
+		    <td>Linha 1 Coluna 2</td>
+		    <td>Linha 1 Coluna 3</td>
+		  </tr>
+		  <tr>
+		    <td>Linha 2 Coluna 1</td>
+		    <td>Linha 2 Coluna 2</td>
+		    <td>Linha 2 Coluna 3</td>
+		  </tr>
+		  <tr>
+		    <td>Linha 3 Coluna 1</td>
+		    <td>Linha 3 Coluna 2</td>
+		    <td>Linha 3 Coluna 3</td>
+		  </tr>
+		</table>
+
+		<a href="desafio-tabela.html">Desafio Tabela Resolvido</a>
+
 	</body>
 </html>
