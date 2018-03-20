@@ -118,16 +118,38 @@
 		    <button type='submit'>Enviar sucesso</button>
 		</form>
 
-		<p>Formulários pode ser:
+		<p>Formulários podem ser:
 			<ul>
 				<li>Simples (texto, senha, arquivo e área de texto)
-					<!-- <input type='tipo' name='nome do campo' /> -->
+					<br>
+					<input type='tipo' name='nome do campo' />
 				</li>
-				<li>Compostos (caixas de seleção, única escolha, )</li>
-				<li></li>
+				<li>Compostos (caixas de seleção, única escolha, seleção única/múltipla)
+					<br>
+					<select name='nome do campo'>
+    					<option value='A'>Valor A</option>
+    					<option value='B'>Valor B</option>
+					</select>
+				</li>
 			</ul>
 		</p>
-
+		<p>Elementos dos Formulários:
+			<ul>
+				<li>Exibição
+					<br>
+					<label for='nome'>Seu Nome</label>
+					<input type='text' name='nome' placeholder='Digite seu nome'/>
+				</li>
+				<li>Ação
+					<br>
+					<button type="button">Clique aqui!</button>
+				</li>
+			</ul>
+		</p>
+		
+		<!-- o desafio consiste em montar um formulário de cadastro com pelo menos 3 campos e enviar para http://batora.net/html/index.php -->
+		<!-- bônus enviar lista de opções com select ou checkbox -->
+		<a href="desafio-form.html" target="_blank">Desafio Formulário Resolvido</a>
 
 	</body>
 </html>

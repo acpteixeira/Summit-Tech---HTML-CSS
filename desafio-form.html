@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- Tipo do documento, não é html. -->
+<html>
+	<head>
+		<title>Introdução HTML</title>
+		<meta charset="UTF-8"> <!-- especifica a codificação de caracteres -->
+		<meta name="author" content="Ana Cristina Pereira Teixeira"> <!-- especifica autor do documento -->
+		<meta name="description" content="Free Web tutorials"> <!-- especifica descrição da página -->
+		<!--<meta name="generator" content="FrontPage 4.0">--> <!-- especifica pacotes de software usados para gerar o documento quando o mesmo não foi feito a mão -->
+		<meta name="keywords" content="HTML,CSS,XML,Javascript,tutorials"> <!-- especifica palavras-chave relevantes para a página -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- controla a área visível de uma página da web -->
+	</head>
+	<body>
+		<h1>Introdução HTML</h1>
+		<p>Este minicurso foi ministrado por Bruno Barbosa no <i>Raja Valley Summit Tech 2017</i>.</p>
+		
+		<h2>Desafio Formulário</h2>
+		<!-- o desafio consiste em montar um formulário de cadastro com pelo menos 3 campos e enviar para http://batora.net/html/index.php -->
+		<!-- bônus enviar lista de opções com select ou checkbox -->
+		<p>Monte um formulário de cadastro com pelo menos 3 itens.</p>
+		
+		<form action="http://batora.net/html/index.php" target="_blank" method="POST"> <!-- geralmente o manipulador de formulários é uma página do servidor com um script para processar dados de entrada -->
+
+			<!-- atributo method determina qual método HTTP vai ser utilizado: GET exibe na URL e POST não exibe na URL-->
+
+			<!-- quando utilizado a tag form, pode-se descartar as labels -->
+			<!-- <label for="Nome">Nome Completo</label> -->
+			Nome Completo: <input type="text" name="Nome" placeholder="Digite seu nome completo"> <br>
+			
+			<!-- <label for="genero">Gênero</label> -->
+			Gênero:
+			<select name="Genero">
+			    <option value='Feminino'>Feminino</option>
+			    <option value='Masculino'>Masculino</option>
+			    <option value="Outro">Outro</option>
+			    <option value="NA" selected="">Prefiro não informar</option> <!-- opção selecionada ao carregar a página -->
+			</select> <br>
+
+			Nacionalidade:
+			<input type="radio" name="Nacionalidade" value="BR" checked> Brasileira
+			<input type="radio" name="Nacionalidade" value="Outra"> Outra<br>
+
+			<br>
+			<button type="submit">Enviar dados!</button>
+		</form>
+
+		<br>
+		<a href="intro.html">Voltar</a>
+	</body>
+</html>
