@@ -1,0 +1,23 @@
+/*
+Este é um comentário CSS e não faz nada.
+Comentários servem para marcar o código, facilitar leitura e manutenção.
+*/
+
+/*
+seletores tag: todos do mesmo tipo
+*/
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+/*
+seletores .class: todos do atributo contendo a classe
+*/
+.texto-vermelho {
+    color: red;
+}
