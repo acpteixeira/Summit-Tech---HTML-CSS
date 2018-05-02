@@ -11,8 +11,6 @@ body {
 }
 
 h1 {
-    /*color: maroon;*/
-    /*margin-left: 40px;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     font-weight: inherit;
@@ -51,6 +49,14 @@ seletores .class: todos do atributo contendo a classe
 */
 .texto-vermelho {
     color: red;
+}
+
+.texto-pink {
+    color: pink;
+}
+
+.texto-azul {
+    color: blue;
 }
 
 /*
