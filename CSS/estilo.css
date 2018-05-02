@@ -87,3 +87,17 @@ seletores #id: apenas o elemento com o id
     text-align: right;
     
 }
+
+.desafio-dois {
+    background:#808080 url('https://goo.gl/SGSx2R') no-repeat center center;
+}
+
+.texto-amarelo {
+    color: yellow;
+}
+
+#desafio2 {
+    background-color: oldlace;
+    font-size: 20px;
+    font-weight: bolder;
+}
